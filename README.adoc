@@ -1,0 +1,5 @@
+= Blink(1) Quarkus Extension
+
+Example Quarkus extension that makes an LED blink at application startup or on user-defined actions.
+
+// For more information see
