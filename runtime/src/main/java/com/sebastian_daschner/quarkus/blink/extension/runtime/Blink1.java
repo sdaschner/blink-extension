@@ -2,10 +2,10 @@ package com.sebastian_daschner.quarkus.blink.extension.runtime;
 
 import io.quarkus.runtime.ShutdownEvent;
 import io.quarkus.runtime.StartupEvent;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.event.Observes;
+import jakarta.inject.Inject;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.event.Observes;
-import javax.inject.Inject;
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;

@@ -15,6 +15,10 @@
       <artifactId>quarkus-arc-deployment</artifactId>
     </dependency>
     <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-resteasy-deployment</artifactId>
+    </dependency>
+    <dependency>
       <groupId>com.sebastian-daschner.quarkus</groupId>
       <artifactId>blink-extension</artifactId>
       <version>${project.version}</version>
